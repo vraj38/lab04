@@ -1,0 +1,73 @@
+{
+    "errors": {
+        "designation": {
+            "name": "ValidatorError",
+            "message": "Path `designation` is required.",
+            "properties": {
+                "message": "Path `designation` is required.",
+                "type": "required",
+                "path": "designation"
+            },
+            "kind": "required",
+            "path": "designation"
+        },
+        "city": {
+            "name": "ValidatorError",
+            "message": "Path `city` is required.",
+            "properties": {
+                "message": "Path `city` is required.",
+                "type": "required",
+                "path": "city"
+            },
+            "kind": "required",
+            "path": "city"
+        },
+        "gender": {
+            "name": "ValidatorError",
+            "message": "Path `gender` is required.",
+            "properties": {
+                "message": "Path `gender` is required.",
+                "type": "required",
+                "path": "gender"
+            },
+            "kind": "required",
+            "path": "gender"
+        },
+        "email": {
+            "name": "ValidatorError",
+            "message": "Path `email` is required.",
+            "properties": {
+                "message": "Path `email` is required.",
+                "type": "required",
+                "path": "email"
+            },
+            "kind": "required",
+            "path": "email"
+        },
+        "lastname": {
+            "name": "ValidatorError",
+            "message": "Path `lastname` is required.",
+            "properties": {
+                "message": "Path `lastname` is required.",
+                "type": "required",
+                "path": "lastname"
+            },
+            "kind": "required",
+            "path": "lastname"
+        },
+        "firstname": {
+            "name": "ValidatorError",
+            "message": "Please Enter First Name",
+            "properties": {
+                "message": "Please Enter First Name",
+                "type": "required",
+                "path": "firstname"
+            },
+            "kind": "required",
+            "path": "firstname"
+        }
+    },
+    "_message": "Employee validation failed",
+    "name": "ValidationError",
+    "message": "Employee validation failed: designation: Path `designation` is required., city: Path `city` is required., gender: Path `gender` is required., email: Path `email` is required., lastname: Path `lastname` is required., firstname: Please Enter First Name"
+}
